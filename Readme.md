@@ -7,9 +7,10 @@ WhatsApp AI Lite is a simplified version of a WhatsApp bot that utilizes AI to a
 - **Processor**: Atleast Core i5 8 Gen or later
 - **RAM**: 8 GB OR Above
 - **GPU**: It requires atleast 4GB GPU 1050 or Above
-- **Olamma**: Olamma is required to be installed and running. You can run the following command to install the required model:
+- **NodeJs**: Nodejs LTS Version 20 or later
+- **Ollama**: Ollama is required to be installed and running. You can run the following command to install the required model:
 
-```olamma run llama2```
+```ollama run llama2```
 
 ## Installation
 
