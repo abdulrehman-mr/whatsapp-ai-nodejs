@@ -9,39 +9,48 @@ WhatsApp AI Lite is a simplified version of a WhatsApp bot that utilizes AI to a
 - **GPU**: It requires atleast 4GB GPU 1050 or Above
 - **Olamma**: Olamma is required to be installed and running. You can run the following command to install the required model:
 
-olamma run llama2
+```olamma run llama2```
 
 ## Installation
 
 To install WhatsApp AI Lite, follow these steps:
 
-1. Install the required npm packages:
+- **1. Install the required npm packages**:
 
-npm i whatsapp-web.js
-npm install qrcode-terminal
-npm install axios
+```npm i whatsapp-web.js```
 
-2. Navigate to the puppeteer directory and install the required dependencies:
+```npm install qrcode-terminal```
 
-cd ./node_modules/puppeteer
-npm install
-cd ..
+```npm install axios```
+
+- **2. Navigate to the puppeteer directory and install the required dependencies**:
+
+```cd ./node_modules/puppeteer```
+
+```npm install```
+
+```cd ..```
 
 
-3. Install WhatsApp Web.js:
+- **3. Install WhatsApp Web.js**:
 
-npm install github:pedroslopez/whatsapp-web.js
-npm install github:pedroslopez/whatsapp-web.js#webpack-exodus
+```npm install github:pedroslopez/whatsapp-web.js```
 
-4. Fix any audit issues:
+```npm install github:pedroslopez/whatsapp-web.js#webpack-exodus```
 
-npm audit fix
+- **4. Fix any audit issues**:
+
+```npm audit fix```
+
+- **5. Create Cache Folder**:
+ 
+If ```.wwebjs_cache``` not exist create manually.
 
 ## Usage
 
 To run WhatsApp AI Lite, execute the following command:
 
-node index.js
+```node index.js```
 
 ## How It Works
 
